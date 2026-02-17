@@ -1,75 +1,7 @@
-# Nuxt Minimal Starter
+# Тестовое задание — каталог товаров (Tapir)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 4 + TypeScript, SCSS, БЭМ, grid/flex. API: `https://test-task-api.tapir.ws/products` (page, limit).
 
-## Setup
+**Запуск:** `npm install` → `npm run dev` → http://localhost:3000
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+**По ТЗ:** шапка и подвал — заглушки; главная — кнопка «В каталог»; каталог — карточки-заглушки, избранное визуально, цена x2 = ceil(цена/2), первая страница по SSR, «Показать ещё» с индикатором загрузки и блоком ошибки + «Повторить».
